@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agence de Voyage</title>
+    <link rel="stylesheet" href="ctyle.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Barre de navigation -->
+    <nav class="navbar navbar-expand-lg bg-dark text-light">
+        <a class="navbar-brand text-light" href="#">Let's Travel</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#" >Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#destinations">Destinations</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#">Circuits</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Section héros -->
+    <header class="hero" style="background-image: url('hero.jpg'); background-size: cover; background-position: center; height: 100vh; display: flex; justify-content: center; align-items: center; color: white; text-align: center;">
+        <div>
+            <h1>Découvrez le Monde</h1>
+            <p>Explorez des destinations de rêve avec nous.</p>
+            <a href="#voyage" class="btn btn-primary btn-lg">Réservez Maintenant</a>
+        </div>
+    </header>
+<!-- Section Destinations -->
+<section class="container my-5" id="destinations">
+    <h2 class="text-center mb-4">Nos Destinations</h2>
+    <div class="row">
+        <!-- Destination 1 -->
+        <div class="col-md-4 mb-4">
+            <div class="card h-100 hover-card">
+                <img src="paris.jpg" class="card-img-top img-fluid" alt="Destination 1" style="height: 200px; object-fit: cover;">
+                <div class="card-body">
+                    <h5 class="card-title">Paris, France</h5>
+                    <p class="card-text">Découvrez la ville lumière avec ses monuments emblématiques et sa culture riche.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Destination 2 -->
+        <div class="col-md-4 mb-4">
+            <div class="card h-100 hover-card">
+                <img src="tokyo.jpg" class="card-img-top img-fluid" alt="Destination 2" style="height: 200px; object-fit: cover;">
+                <div class="card-body">
+                    <h5 class="card-title">Tokyo, Japon</h5>
+                    <p class="card-text">Explorez la fusion de la tradition et de la modernité dans la capitale japonaise.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Destination 3 -->
+        <div class="col-md-4 mb-4">
+            <div class="card h-100 hover-card">
+                <img src="newyork$.jpg" class="card-img-top img-fluid" alt="Destination 3" style="height: 200px; object-fit: cover;">
+                <div class="card-body">
+                    <h5 class="card-title">New York, États-Unis</h5>
+                    <p class="card-text">Visitez la ville qui ne dort jamais et découvrez ses nombreux attraits touristiques.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Destination 4 -->
+        <div class="col-md-4 mb-4">
+            <div class="card h-100 hover-card">
+                <img src="rome.jpg" class="card-img-top img-fluid" alt="Destination 4" style="height: 200px; object-fit: cover;">
+                <div class="card-body">
+                    <h5 class="card-title">Rome, Italie</h5>
+                    <p class="card-text">Parcourez les ruines antiques et savourez la délicieuse cuisine italienne.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Destination 5 -->
+        <div class="col-md-4 mb-4">
+            <div class="card h-100 hover-card">
+                <img src="sydney.jpg" class="card-img-top img-fluid" alt="Destination 5" style="height: 200px; object-fit: cover;">
+                <div class="card-body">
+                    <h5 class="card-title">Sydney, Australie</h5>
+                    <p class="card-text">Admirez l'Opéra de Sydney et profitez des plages magnifiques.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Destination 6 -->
+        <div class="col-md-4 mb-4">
+            <div class="card h-100 hover-card">
+                <img src="caire.jpg" class="card-img-top img-fluid" alt="Destination 6" style="height: 200px; object-fit: cover;">
+                <div class="card-body">
+                    <h5 class="card-title">Le Caire, Égypte</h5>
+                    <p class="card-text">Visitez les pyramides et explorez l'histoire ancienne de l'Égypte.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Destination 7 -->
+        <div class="col-md-4 mb-4">
+            <div class="card h-100 hover-card">
+                <img src="rio.jpg" class="card-img-top img-fluid" alt="Destination 7" style="height: 200px; object-fit: cover;">
+                <div class="card-body">
+                    <h5 class="card-title">Rio de Janeiro, Brésil</h5>
+                    <p class="card-text">Profitez des plages, du carnaval et de la beauté naturelle de cette ville vibrante.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Destination 8 -->
+        <div class="col-md-4 mb-4">
+            <div class="card h-100 hover-card">
+                <img src="capetowne.jpg" class="card-img-top img-fluid" alt="Destination 8" style="height: 200px; object-fit: cover;">
+                <div class="card-body">
+                    <h5 class="card-title">Cape Town, Afrique du Sud</h5>
+                    <p class="card-text">Découvrez la beauté de la montagne de la Table et les paysages côtiers.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Destination 9 -->
+        <div class="col-md-4 mb-4">
+            <div class="card h-100 hover-card">
+                <img src="bangkok.jpg" class="card-img-top img-fluid" alt="Destination 9" style="height: 200px; object-fit: cover;">
+                <div class="card-body">
+                    <h5 class="card-title">Bangkok, Thaïlande</h5>
+                    <p class="card-text">Explorez les temples, les marchés et la cuisine délicieuse de Bangkok.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Section Voyages -->
+<section class="container my-5" id="voyage">
+    <h2 class="text-center mb-4">Nos Voyages Organisés</h2>
+
+    <div class="accordion accordion-flush" id="voyagesAccordionAlt">
+        
+        <!-- Voyage 1 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    Safari en Afrique
+                    <p class="mb-0 ms-3 text-muted small">Découvrez la faune sauvage du Kenya et de la Tanzanie avec un safari inoubliable.</p>
+                </button>
+                <a href="#" class="btn btn-link ms-3 text-primary small">Voir les détails</a>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#voyagesAccordionAlt">
+                <div class="accordion-body">
+                    Partez à la découverte de la faune sauvage en Afrique avec des safaris inoubliables à travers les parcs nationaux du Kenya et de la Tanzanie.
+                </div>
+            </div>
+        </div>
+
+        <!-- Voyage 2 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    Découverte des temples d'Asie
+                    <p class="mb-0 ms-3 text-muted small">Explorez les temples majestueux du Cambodge, de la Thaïlande et du Laos.</p>
+                </button>
+                <a href="#" class="btn btn-link ms-3 text-primary small">Voir les détails</a>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#voyagesAccordionAlt">
+                <div class="accordion-body">
+                    Explorez les temples majestueux d'Asie du Sud-Est, en visitant des sites incroyables au Cambodge, en Thaïlande et au Laos.
+                </div>
+            </div>
+        </div>
+
+        <!-- Voyage 3 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    Croisière dans les Caraïbes
+                    <p class="mb-0 ms-3 text-muted small">Profitez d'une croisière de luxe à travers les îles paradisiaques des Caraïbes.</p>
+                </button>
+                <a href="#" class="btn btn-link ms-3 text-primary small">Voir les détails</a>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#voyagesAccordionAlt">
+                <div class="accordion-body">
+                    Profitez du soleil et de la mer lors d'une croisière de luxe à travers les îles paradisiaques des Caraïbes.
+                </div>
+            </div>
+        </div>
+
+        <!-- Voyage 4 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                    Circuit en Europe
+                    <p class="mb-0 ms-3 text-muted small">Explorez les capitales historiques de l'Europe, de Paris à Rome.</p>
+                </button>
+                <a href="#" class="btn btn-link ms-3 text-primary small">Voir les détails</a>
+            </h2>
+            <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#voyagesAccordionAlt">
+                <div class="accordion-body">
+                    Découvrez les merveilles historiques et culturelles de l'Europe en parcourant ses plus grandes capitales, de Paris à Rome en passant par Berlin.
+                </div>
+            </div>
+        </div>
+
+        <!-- Voyage 5 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingFive">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                    Expédition en Antarctique
+                    <p class="mb-0 ms-3 text-muted small">Une aventure polaire unique à travers les glaciers de l'Antarctique.</p>
+                </button>
+                <a href="#" class="btn btn-link ms-3 text-primary small">Voir les détails</a>
+            </h2>
+            <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#voyagesAccordionAlt">
+                <div class="accordion-body">
+                    Vivez une aventure unique en explorant les glaciers, la faune polaire et les paysages incroyables de l'Antarctique.
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!-- Section Formulaire de contact -->
+<<section id="contact" class="container my-5">
+    <h2 class="text-center mb-4">Contactez-nous</h2>
+    <form>
+        <div class="mb-3">
+            <label for="name" class="form-label">Nom</label>
+            <input type="text" class="form-control" id="name" placeholder="Votre nom" required>
+        </div>
+        <div class="mb-3">
+            <label for="email" class="form-label">Adresse électronique</label>
+            <input type="email" class="form-control" id="email" placeholder="Votre adresse électronique" required>
+        </div>
+        <div class="mb-3">
+            <label for="destination" class="form-label">Destination d'intérêt</label>
+            <select class="form-select" id="destination" required>
+                <option value="" disabled selected>Sélectionnez une destination</option>
+                <option value="paris">Paris, France</option>
+                <option value="tokyo">Tokyo, Japon</option>
+                <option value="newyork">New York, États-Unis</option>
+                <option value="rome">Rome, Italie</option>
+                <option value="sydney">Sydney, Australie</option>
+                <option value="caire">Le Caire, Égypte</option>
+                <option value="rio">Rio de Janeiro, Brésil</option>
+                <option value="capetowne">Cape Town, Afrique du Sud</option>
+                <option value="bangkok">Bangkok, Thaïlande</option>
+            </select>
+        </div>
+        <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-control" id="message" rows="4" placeholder="Votre message" required></textarea>
+        </div>
+        <div class="text-center"> <!-- Ajout de la classe text-center -->
+            <button type="submit" class="btn btn-primary">Envoyer</button>
+        </div>
+    </form>
+</section>
+<!-- Pied de page -->
+<footer class="bg-dark text-light py-4">
+    <div class="container text-center">
+        <div class="row">
+            <!-- Informations sur les droits d'auteur -->
+            <div class="col-md-6 mb-3 mb-md-0">
+                <p class="mb-0">© 2024 Let's Travel. Tous droits réservés.</p>
+            </div>
+            <!-- Icônes des médias sociaux -->
+            <div class="col-md-6">
+                <a href="#" class="text-light me-3">
+                    <i class="bi bi-facebook" style="font-size: 1.5rem;"></i>
+                </a>
+                <a href="#" class="text-light me-3">
+                    <i class="bi bi-twitter" style="font-size: 1.5rem;"></i>
+                </a>
+                <a href="#" class="text-light me-3">
+                    <i class="bi bi-instagram" style="font-size: 1.5rem;"></i>
+                </a>
+                <a href="#" class="text-light me-3">
+                    <i class="bi bi-linkedin" style="font-size: 1.5rem;"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+</body>
+</html>
